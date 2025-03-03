@@ -27,6 +27,7 @@ body {
     border: 0.3125em solid #fff; /* 5px */
     border-radius: 50%;
     box-shadow: 0px 0px 0.625em rgba(0, 0, 0, 0.3); /* 10px */
+    background-color: orange;
 }
 
 #chat-circle:hover {
