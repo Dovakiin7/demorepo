@@ -351,7 +351,7 @@ export default function StateMachine() {
                             ],
                             "callback": async function (data) {
                                 if (data.selectedValue === "Brand New") {
-                                    statemachine.currentState = "information";
+                                    statemachine.currentState = "Second Phase";
                                 } else if (data.selectedValue === "Getting Started") {
                                     statemachine.currentState = "Second Phase";
                                 } else if (data.selectedValue === "Up N Running") {
@@ -359,7 +359,7 @@ export default function StateMachine() {
                                 } else if (data.selectedValue === "Established") {
                                     statemachine.currentState = "Second Phase";
                                 } else if (data.selectedValue === "Other") {
-                                    statemachine.currentState = "information";
+                                    statemachine.currentState = "Second Phase";
                                 }
 
                                 console.log(user);
